@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #BC5148;
+
+    .container {
+        width: 90%;
+
+        nav {
+            padding: 0px;
+        }
+
+        .icondiv {
+            display: flex;
+            gap: 20px;
+
+
+        }
+
+        .btnDiv {
+            display: flex;
+            gap: 10px;
+
+            button {
+                width: 90px;
+                height: 42px;
+                justify-content: center;
+                align-items: center;
+                background-color: #BC5148;
+                border: none;
+            }
+
+            .lgn {
+                background-color: #F4B214;
+                border: none;
+            }
+
+        }
+
+
+    }
+}
+
+.headerDiv {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+    .adopted {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 25px;
+        padding-left: 25px;
+    }
+
+    .collapseDiv {
+        height: 40px;
+        padding-top: 20px;
+        justify-content: flex-end;
+    }
+}
+
+
+#children {
+    background-image: url(/assets/img/slider-1.jpg);
+    
+    background-size: cover;
+    max-width: 100%;
+    padding: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .row {
+        padding: 30px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        .textChild {
+            padding: 30px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+
+            h2 {
+
+                font-size: 40px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 800;
+
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            button {
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                padding: 10px;
+                background-color: #BC5148;
+                border: none;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+    }
+}
+
+#accordion {
+    width: 100%;
+    .container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        h1{
+            font-size: 30px;
+           padding-bottom: 20px;
+           font-weight: 450;
+        }
+        .row {
+            padding: 30px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .accordionDiv {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+                color: grey;
+            }
+         
+            img {
+                max-width: 100%;
+            }
+
+            button {
+                width: 35%;
+                height: 45px;
+                border: 2px solid #BC5148;
+                border-radius: 5px;
+                color: #BC5148;
+            }
+
+        }
+    }
+
+}
+
+
+
+#waiting{
+    width: 100%;
+    padding: 20px;
+    .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       .wtngchild{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        h1{
+            font-size: 35px;
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+        span{
+            color: grey;
+           
+        }
+        button{
+            width: 20%;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            background-color: #BC5148;
+            border: none;
+            color: white;
+        }
+       }
+    }
+}
+
+
+
+
+#productsList{
+   background-color: #F4B214;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+
+
+#features{
+    width: 100%;
+    padding: 30px;
+    .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .imagesDiv{
+            display: flex;
+            padding: 30px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
